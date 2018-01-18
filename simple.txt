@@ -1,0 +1,44 @@
+x=50;
+
+y=70;
+
+z=x+y;
+
+print "Hii sum of 50 and 70 is\n",z
+
+
+
+a=2;
+
+b=3;
+
+c=a**b
+
+print "Hii the exponent of 2 and 3 is\n",c
+
+
+
+e=22;
+
+f=8;
+
+
+g=e%f;
+
+
+h=e//f;
+
+
+i=e/f;
+
+
+print "Hii the mod operation of 22 and 8 is\n",g
+
+
+print "Hii the integer division operation of 22 and 8 is\n",h
+
+
+print "Hii the normaldivuision operation of 22 and 8 is\n",i
+
+
+
