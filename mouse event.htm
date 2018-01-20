@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>Mouse events</title>
+  <h1> ONLINE SHOPPING </h1>
+  <h4>First we demonstrate a different mouse events for online shopping</h2>
+</head>
+
+<body>
+<body background="http://bgwall.net/wp-content/uploads/2014/09/black-circle-background-wallpaper-desktop.jpg">
+
+
+<h4>ON CLICK</h2> 
+
+<P> the intent to show a website for customer by a new product pls click a "NEW PRODUCT NAME IS" </p>
+<h1 onclick="this.innerHTML='MOTO G4 PLUS !'">New product name is!</h1>
+ 
+ <h4>  ON MOUSE MOVE
+
+<p> When we mouse over the image and we get the image coordinates.</p>
+<img src="file://localhost/F:/folder/clk images.jpg" width="300" hight="450"
+<div onmousemove="myFunction(event)" onmouseout="clearCoor()">
+</div>
+<p id="demo"></p>
+<script>
+    function myFunction(e)
+    {
+    var x = e.clientX;
+    var y = e.clientY;
+    var coor = "Coordinates: (" + x + "," + y + ")";
+    document.getElementById("demo").innerHTML = coor;
+    }
+
+    function clearCoor() 
+    {
+    document.getElementById("demo").innerHTML = "";
+    }
+</script>
+</body>
+
+<h4> OMMOUSEOVER and ONMOUSEOUT</h4>
+
+<div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+style="background-color:#808080;width:520px;height:20px;padding:40px;">
+Mouse Over Me</div>
+<script>
+  function mOver(obj)
+  {
+    obj.innerHTML = "Thank You For Seeing This Product."
+  }
+   function mOut(obj) 
+   {
+    obj.innerHTML = "Mouse Over The Box"
+    }
+</script>
+</html>
